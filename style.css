@@ -1,0 +1,26 @@
+*header {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-contact {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.header-contact a {
+    color: #fff;
+    font-size: 22px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header-contact a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+
